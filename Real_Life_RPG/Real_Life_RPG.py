@@ -11,7 +11,7 @@ from time import sleep
 # If you want to add a new skill in csv file make your changes like that: skill kind,level,exp,level limit,total minutes
 # Point calculation : Minutes * 0.1 = Exp
 
-path = r'/Users/xmarin/Desktop/Python Projects/Python Singular Projects/Real_Life_RPG/dataBase.csv'
+path = "dataBase.csv"
 
 file = open(path)
 data = csv.reader(file)
